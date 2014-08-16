@@ -8,6 +8,10 @@ This is a very niche usecase product, but it fulfils the criteria:
 The script takes the CSV from [Felix Eve's bookmarklet](https://github.com/dahousecat/hsbc-statement-to-csv) and outputs CSV in the format FreeAgent would like.
 
 
+## Requirements
+
+Ruby 1.9.3. It should work with any Ruby 1.9 - using the built-in CSV library - but I've only tested it on 1.9.3.
+
 ## Usage
 
 1. I'm using [this bookmarklet script](https://github.com/dahousecat/hsbc-statement-to-csv). It allows me to click the bookmarklet whilst staring at a "previous statement" in HSBC's website and download that statement as CSV.
